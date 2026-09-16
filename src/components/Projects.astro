@@ -1,0 +1,54 @@
+---
+import { projects } from '../data/projects';
+---
+
+<section id="proyectos">
+  <div class="container">
+    <p class="section-title">Proyectos / Projects</p>
+    <h2 class="section-heading">Trabajo seleccionado</h2>
+    <p class="section-sub">
+      Una muestra de lo que puedo hacer por ti. Edita <code>src/data/projects.ts</code> para poner tus proyectos reales.
+      <em> A sample of what I can do for you.</em>
+    </p>
+    <div class="grid-3">
+      {projects.map((p) => (
+        <article class="card project">
+          <div class="meta">
+            <span class="year">{p.year}</span>
+            <a href={p.link} aria-label={p.title}>↗</a>
+          </div>
+          <h3>{p.title}</h3>
+          <p>{p.description}</p>
+          <div class="tags">
+            {p.tags.map((t) => <span>{t}</span>)}
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  code { color: var(--accent); }
+  .project h3 { margin: 0.75rem 0 0.5rem; }
+  .project p { color: var(--muted); font-size: 0.95rem; margin: 0 0 1rem; }
+  .meta { display: flex; justify-content: space-between; align-items: center; }
+  .year {
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+  }
+  .meta a { text-decoration: none; font-size: 1.2rem; }
+  .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .tags span {
+    font-size: 0.78rem;
+    background: rgba(255,255,255,0.06);
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    color: var(--muted);
+  }
+  .project { transition: transform 0.15s ease; }
+  .project:hover { transform: translateY(-3px); }
+</style>

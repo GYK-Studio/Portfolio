@@ -1,0 +1,55 @@
+<section class="hero" id="top">
+  <div class="container hero-inner">
+    <p class="badge">● Disponible para proyectos / Available for projects</p>
+    <h1>Hola, soy <span class="gradient">gykstudio</span><br />Diseño y desarrollo web que convierte.</h1>
+    <p class="lead">
+      Portfolio oficial de <strong>gykstudio</strong> — creo sitios rápidos, modernos y optimizados para SEO con Astro.
+      <br /><em>Official portfolio of <strong>gykstudio</strong> — I build fast, modern, SEO-friendly websites with Astro.</em>
+    </p>
+    <div class="actions">
+      <a href="#proyectos" class="btn btn-primary">Ver proyectos / View work</a>
+      <a href="#contacto" class="btn btn-ghost">Contactar / Contact</a>
+    </div>
+    <div class="stats">
+      <div><strong>+20</strong><span>Proyectos / Projects</span></div>
+      <div><strong>3+ años</strong><span>Experiencia / Experience</span></div>
+      <div><strong>100/100</strong><span>Performance*</span></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero { padding: 6rem 0 4rem; }
+  .badge {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    background: rgba(34, 211, 238, 0.08);
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    margin: 0 0 1.5rem;
+  }
+  h1 {
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0 0 1rem;
+  }
+  .gradient {
+    background: linear-gradient(83.21deg, var(--primary-2), var(--primary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .lead { color: var(--muted); max-width: 680px; font-size: 1.1rem; }
+  .actions { display: flex; gap: 0.75rem; margin-top: 1.75rem; flex-wrap: wrap; }
+  .stats {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
+  }
+  .stats div { display: flex; flex-direction: column; }
+  .stats strong { font-size: 1.5rem; }
+  .stats span { color: var(--muted); font-size: 0.9rem; }
+</style>
