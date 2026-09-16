@@ -11,11 +11,10 @@
 ## 🇬🇧 English
 
 ### What is this?
-**GYK Studio Portfolio** is the official portfolio website of **gykstudio** — a creative studio focused on modern web design and development.
-
+**GYK Studio Portfolio** is the official portfolio website of **gykstudio**.
 It showcases:
 - **Projects** — selected client work and personal experiments
-- **Services** — web design, development, branding and UI/UX
+- **Services** — web design,apps, velopment, branding... 
 - **About** — who is behind gykstudio, stack and workflow
 - **Contact** — how to start a project together
 
@@ -84,11 +83,11 @@ astro dev stop
 ## 🇪🇸 Español
 
 ### ¿Qué es esto?
-**Portfolio de GYK Studio** es el sitio web oficial de portafolio de **gykstudio** — un estudio creativo enfocado en diseño y desarrollo web moderno.
+**Portfolio de GYK Studio** es el sitio web oficial de portafolio de **gykstudio** —.
 
 Muestra:
 - **Proyectos** — trabajos seleccionados de clientes y experimentos personales
-- **Servicios** — diseño web, desarrollo, branding y UI/UX
+- **Servicios** — diseño web,aplicaciones, paquetes, herramientas,gaming,esarrollo, brandinh... etc
 - **Nosotros / Sobre mí** — quién está detrás de gykstudio, stack y forma de trabajar
 - **Contacto** — cómo iniciar un proyecto juntos
 
